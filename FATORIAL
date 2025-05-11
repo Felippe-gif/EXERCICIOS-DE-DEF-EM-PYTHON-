@@ -4,6 +4,8 @@ def fatorial(n):
         resultado *= i
     return resultado 
 
+print("\n\t\t --- FATORIAL --- \n")
+
 n = int(input("Digite seu número: "))
 resul = fatorial(n)
 print(f"{resul}")
