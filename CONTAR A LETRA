@@ -1,0 +1,7 @@
+def contar_palavras(palavra , letras):
+    return palavra.count(letras)
+
+palavra = input("digite sua palavra: ")
+letra = input("digite a letra que dejesa contar :")
+quantidade = contar_palavras(palavra,letra)
+print(f'a letra {letra} a quantidade {quantidade} da palavra {palavra}')
