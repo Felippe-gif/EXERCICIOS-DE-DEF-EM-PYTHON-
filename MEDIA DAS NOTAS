@@ -1,0 +1,16 @@
+def add(lista):
+    for i in range (0,4):
+        n =int(input("digite suas notas :"))
+        lista.append(n)
+def media_lista(lista):
+    if len(lista) == 0:
+        return 0
+    soma = sum(lista)
+    media = soma / len(lista)
+    return media 
+
+    
+lista = []
+add(lista)
+resultado = media_lista(lista)
+print(f"MEDIA :{resultado}")
