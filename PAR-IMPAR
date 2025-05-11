@@ -1,0 +1,10 @@
+def par_impar(m):
+    if m % 2 == 0:
+        print("par")
+    else:
+        print("impar")
+        return
+
+m = int(input("digite seu numero :"))
+mensagm = par_impar(m)
+print(f"{mensagm}")
