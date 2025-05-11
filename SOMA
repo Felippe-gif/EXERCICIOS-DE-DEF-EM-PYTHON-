@@ -1,0 +1,9 @@
+def soma(a,b):
+    resultado = a + b
+    return resultado
+
+a = int(input('digite um numero :'))
+b = int(input('digite um numero :'))
+
+result = soma(a,b)
+print(f"{result}")
