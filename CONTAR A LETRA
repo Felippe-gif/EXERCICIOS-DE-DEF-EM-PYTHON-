@@ -1,6 +1,8 @@
 def contar_palavras(palavra , letras):
     return palavra.count(letras)
 
+print("\n\t\t --- CONTAR PALAVRAS --- \n")
+
 palavra = input("digite sua palavra: ")
 letra = input("digite a letra que dejesa contar :")
 quantidade = contar_palavras(palavra,letra)
