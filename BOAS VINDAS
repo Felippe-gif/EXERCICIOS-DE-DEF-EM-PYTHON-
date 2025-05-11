@@ -5,6 +5,4 @@ nome =input("DIGITE SEU NOME : ")
 curso =input("DIGITE SEU CURSO :")
 
 boas_vindas(nome,curso)
-def soma(a,b):
-    resultado = a + b
-    return resultado
+
