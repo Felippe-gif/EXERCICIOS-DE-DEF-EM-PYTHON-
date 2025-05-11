@@ -2,6 +2,8 @@ def soma(a,b):
     resultado = a + b
     return resultado
 
+print("\n\t\t --- SOMA --- \n")
+
 a = int(input('digite um numero :'))
 b = int(input('digite um numero :'))
 
