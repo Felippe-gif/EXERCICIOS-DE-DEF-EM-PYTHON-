@@ -5,6 +5,8 @@ def par_impar(m):
         print("impar")
         return
 
+print("\n\t\t --- PAR OU IMPAR --- \n")
+
 m = int(input("digite seu numero :"))
 mensagm = par_impar(m)
 print(f"{mensagm}")
